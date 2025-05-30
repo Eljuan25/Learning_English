@@ -1,0 +1,161 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.theory, .examples, .practice {
+    margin-top: 25px;
+}
+
+.theory p, .theory ul, .examples ul {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.examples ul, .practice form {
+    margin-left: 20px;
+}
+
+/* Estilos para las preguntas */
+.question-block {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+/* Estilo botones */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para la sección de feedback */
+.feedback {
+    background-color: #e8f0fe;
+    border: 1px solid #a3c4f3;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.feedback h3 {
+    color: #1a73e8;
+    margin-top: 0;
+}
+
+.feedback ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.feedback li {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.feedback span {
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+/* Correcto e incorrecto */
+.feedback span[style*="green"] {
+    color: #27a3ae;
+}
+
+.feedback span[style*="red"] {
+    color: #e74c3c;
+}
+
+/* Link volver */
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* lession */
+
+.theory, .examples, .practice {
+    margin-top: 20px;
+}
+
+.question-block {
+    margin-bottom: 15px;
+    background-color: #f9fafb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+ul li {
+  list-style: none; /* Quita el punto de la lista */
+  margin: 10px 0;   /* Espaciado vertical */
+}
+
+ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Verde bonito */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #4c45a0; /* Cambia al pasar el mouse */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

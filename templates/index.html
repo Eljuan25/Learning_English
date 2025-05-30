@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning to English</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Wellcome to the English Learning </h1>
+            <h2>Select a lesson to start</h2>
+        </header>
+    
+
+    <main class="main-content">
+        <ul class="lesson-list">
+            <li><a href="{{url_for('lesson',lesson_id=1)}}">Lesson 1: Verb To Be</a></li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Learning English Bithcs</p>
+    </footer>
+    
+
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "title": "Lección 1: El Verbo To Be",
+  "theory": "El verbo 'to be' significa 'ser' o 'estar'. Es uno de los verbos más importantes en inglés y se usa para describir identidad, estado, profesión, nacionalidad, etc. Sus formas en presente son: I am, You are, He/She/It is, We are, You are, They are.",
+  "examples": [
+    "I am a teacher. (Yo soy maestro)",
+    "She is happy. (Ella está feliz)",
+    "They are in the park. (Ellos están en el parque)",
+    "We are friends. (Nosotros somos amigos)",
+    "He is tired. (Él está cansado)"
+  ],
+  "practice": [
+    {
+      "question": "He ___ a doctor.",
+      "options": ["am", "is", "are"],
+      "answer": "is"
+    },
+    {
+      "question": "They ___ at home.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "I ___ a student.",
+      "options": ["is", "am", "are"],
+      "answer": "am"
+    },
+    {
+      "question": "You ___ my friend.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "She ___ happy today.",
+      "options": ["is", "are", "am"],
+      "answer": "is"
+    },
+    {
+      "question": "We ___ ready to go.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "It ___ cold outside.",
+      "options": ["is", "are", "am"],
+      "answer": "is"
+    },
+    {
+      "question": "I ___ not hungry.",
+      "options": ["is", "are", "am"],
+      "answer": "am"
+    },
+    {
+      "question": "You ___ very kind.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "They ___ doctors.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "He ___ my brother.",
+      "options": ["is", "are", "am"],
+      "answer": "is"
+    },
+    {
+      "question": "We ___ from Mexico.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    },
+    {
+      "question": "It ___ a nice day.",
+      "options": ["is", "are", "am"],
+      "answer": "is"
+    },
+    {
+      "question": "I ___ a teacher.",
+      "options": ["is", "are", "am"],
+      "answer": "am"
+    },
+    {
+      "question": "You ___ students.",
+      "options": ["is", "are", "am"],
+      "answer": "are"
+    }
+  ]
+}
