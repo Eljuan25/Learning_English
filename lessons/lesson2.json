@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 2: Present Simple Tense",
+  "content": "El presente simple se utiliza para hablar de acciones habituales, verdades generales y rutinas diarias. Es uno de los tiempos verbales más usados en inglés.\n\nEn inglés, la estructura del presente simple varía ligeramente dependiendo del sujeto:\n- Para los sujetos I, you, we, they: se usa el verbo base.\n- Para he, she, it: se agrega una -s o -es al final del verbo.\n\nEjemplos de uso:\n- I study every day. (Estudio todos los días.)\n- She works in an office. (Ella trabaja en una oficina.)\n- They play soccer on weekends. (Ellos juegan fútbol los fines de semana.)\n\nTambién usamos el presente simple con adverbios de frecuencia como: always, usually, often, sometimes, rarely, never.\n\nPara preguntas usamos el auxiliar 'do' o 'does':\n- Do you like pizza?\n- Does he play tennis?\n\nPara negaciones:\n- I don't like coffee.\n- She doesn't speak German.",
+  "examples": [
+    "He walks to school every day.",
+    "We don't watch TV in the morning.",
+    "Do you play the guitar?",
+    "She studies English on Mondays."
+  ],
+  "practice": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": ["She go to school.", "She goes to school.", "She going to school."],
+      "answer": "She goes to school."
+    },
+    {
+      "question": "Complete the sentence: I ____ breakfast at 7am.",
+      "options": ["has", "have", "having"],
+      "answer": "have"
+    },
+    {
+      "question": "Which question is correct?",
+      "options": ["Does he plays soccer?", "Do he play soccer?", "Does he play soccer?"],
+      "answer": "Does he play soccer?"
+    },
+    {
+      "question": "Choose the correct negative sentence:",
+      "options": ["They doesn't like meat.", "They don't like meat.", "They not like meat."],
+      "answer": "They don't like meat."
+    },
+    {
+      "question": "Fill in the blank: She ____ to the gym on Fridays.",
+      "options": ["go", "goes", "gone"],
+      "answer": "goes"
+    }
+  ]
+}

@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lección 1: Verbo To Be</title>
+    <title>{{ lesson.title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1>Lesson 1: Verb To Be</h1>
+            <h1>{{ lesson.title }}</h1>
         </header>
 
         <section class="theory">
             <h2>Teoría</h2>
-            <p>
-                El verbo <strong>"to be"</strong> es uno de los verbos más importantes en inglés. Significa <em>"ser" o "estar"</em>,
-                y se usa para describir identidad, estado, profesión, edad, nacionalidad, entre otros.
-            </p>
-            <p>Sus formas principales en presente son:</p>
-            <ul>
-                <li><strong>I am</strong> (yo soy / estoy)</li>
-                <li><strong>You are</strong> (tú eres / estás)</li>
-                <li><strong>He / She / It is</strong> (él / ella / eso es / está)</li>
-                <li><strong>We are</strong> (nosotros somos / estamos)</li>
-                <li><strong>You are</strong> (ustedes son / están)</li>
-                <li><strong>They are</strong> (ellos son / están)</li>
-            </ul>
-            <p>Ejemplos:</p>
-            <ul>
-                <li><em>I am a student.</em> (Soy un estudiante.)</li>
-                <li><em>She is happy.</em> (Ella está feliz.)</li>
-                <li><em>They are at home.</em> (Ellos están en casa.)</li>
-            </ul>
+            <p>{{ lesson.content | replace('\n', '<br>') | safe }}</p>
         </section>
 
         <section class="examples">
@@ -64,7 +46,5 @@
             <br><a href="{{ url_for('index') }}">← Volver al inicio</a>
         </footer>
     </div>
-
-  
 </body>
 </html>
