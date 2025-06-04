@@ -25,23 +25,29 @@
         </section>
 
         <section class="practice">
-            <h2>Práctica</h2>
-            <form method="post">
-                {% for p in lesson.practice %}
-                    <div class="question-block">
-                        <p><strong>{{ p.question }}</strong></p>
-                        {% for option in p.options %}
-                            <label>
-                                <input type="radio" name="q{{ loop.index0 }}" value="{{ option }}"> {{ option }}
-                            </label><br>
-                        {% endfor %}
-                    </div>
-                {% endfor %}
+        <h2>Práctica</h2>
+        <form method="post">
+            {% for p in lesson.practice %}
+                <div class="question-block">
+                    {% if p.audio %}
+                        <audio controls>
+                            <source src="{{ url_for('static', filename='sounds/' + p.audio) }}" type="audio/mpeg">
+                            Tu navegador no soporta audio.
+                        </audio>
+                        <br>
+                    {% endif %}
+                    <p><strong>{{ p.question }}</strong></p>
+                    {% for option in p.options %}
+                        <label>
+                            <input type="radio" name="q{{ loop.index0 }}" value="{{ option }}"> {{ option }}
+                        </label><br>
+                    {% endfor %}
+                </div>
                 <br>
-                <button type="submit">Revisar respuestas</button>
-            </form>
-        </section>
-
+            {% endfor %}
+            <button type="submit">Revisar respuestas</button>
+        </form>
+    </section>
         <footer class="footer">
             <br><a href="{{ url_for('index') }}">← Volver al inicio</a>
         </footer>

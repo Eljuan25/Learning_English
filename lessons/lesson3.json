@@ -1,0 +1,36 @@
+{
+  "title": "Lesson 3: At the Restaurant",
+  "content": "Listen to each line of the conversation and choose what it means.",
+  "practice": [
+    {
+      "question": "What is being said?",
+      "options": ["Hello! Welcome to our restaurant.", "Goodbye! See you tomorrow.", "Can I help you?"],
+      "answer": "Hello! Welcome to our restaurant.",
+      "audio": "restaurant1.mp3"
+    },
+    {
+      "question": "What is being said?",
+      "options": ["A table for two, please.", "Can I have a coffee?", "Where is the bathroom?"],
+      "answer": "A table for two, please.",
+      "audio": "restaurant2.mp3"
+    },
+    {
+      "question": "What is being said?",
+      "options": ["Here is your menu.", "This is your receipt.", "Here is your drink."],
+      "answer": "Here is your menu.",
+      "audio": "restaurant3.mp3"
+    },
+    {
+      "question": "What is being said?",
+      "options": ["I would like a cheeseburger and a lemonade.", "I want a salad and water.", "I’ll have a soup and coffee."],
+      "answer": "I would like a cheeseburger and a lemonade.",
+      "audio": "restaurant4.mp3"
+    },
+    {
+      "question": "What is being said?",
+      "options": ["Certainly. Your order will be ready soon.", "Sorry, we don’t have that.", "Please wait outside."],
+      "answer": "Certainly. Your order will be ready soon.",
+      "audio": "restaurant5.mp3"
+    }
+  ]
+}
