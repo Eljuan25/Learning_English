@@ -159,3 +159,43 @@ ul li a:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+
+.lesson-image {
+    text-align: center;
+}
+
+.lesson-image img {
+    max-width: 60%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow:  0 2px 12px rgba(0, 0, 0, 0.1);;
+
+}
+
+
+.question-block {
+  display: flex;
+  align-items: flex-start; 
+  gap: 30px;               
+  max-width: 1200px;
+}
+
+.question-image {
+  flex-shrink: 0;          
+  width: 220px;            
+  
+}
+
+.question-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.question-text {
+  flex: 1;                
+  word-wrap: break-word;
+}

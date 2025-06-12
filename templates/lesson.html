@@ -8,6 +8,12 @@
     <div class="container">
         <header class="header">
             <h1>{{ lesson.title }}</h1>
+
+            {% if lesson.image %}
+                <div class="lesson-image">
+                    <img src="{{ lesson.image }}" alt="Imagen representativa de la lección">
+                </div>
+            {% endif %}
         </header>
 
         <section class="theory">
@@ -25,29 +31,37 @@
         </section>
 
         <section class="practice">
-        <h2>Práctica</h2>
-        <form method="post">
-            {% for p in lesson.practice %}
-                <div class="question-block">
-                    {% if p.audio %}
-                        <audio controls>
-                            <source src="{{ url_for('static', filename='sounds/' + p.audio) }}" type="audio/mpeg">
-                            Tu navegador no soporta audio.
-                        </audio>
-                        <br>
-                    {% endif %}
-                    <p><strong>{{ p.question }}</strong></p>
-                    {% for option in p.options %}
-                        <label>
-                            <input type="radio" name="q{{ loop.index0 }}" value="{{ option }}"> {{ option }}
-                        </label><br>
-                    {% endfor %}
-                </div>
-                <br>
-            {% endfor %}
-            <button type="submit">Revisar respuestas</button>
-        </form>
-    </section>
+            <h2>Practice</h2>
+            <form method="post">
+                {% for p in lesson.practice %}
+                    <div class="question-block">
+
+                        {% if p.image %}
+                            <div class="question-image">
+                                <img src="{{ p.image }}" alt="Imagen de la pregunta" style="max-width: 300px; border-radius: 8px; margin-bottom: 10px;">
+                            </div>
+                        {% endif %}
+
+                        {% if p.audio %}
+                            <audio controls>
+                                <source src="{{ url_for('static', filename='sounds/' + p.audio) }}" type="audio/mpeg">
+                                Tu navegador no soporta audio.
+                            </audio>
+                            <br>
+                        {% endif %}
+                        <p><strong>{{ p.question }}</strong></p>
+                        {% for option in p.options %}
+                            <label>
+                                <input type="radio" name="q{{ loop.index0 }}" value="{{ option }}"> {{ option }}
+                            </label><br>
+                        {% endfor %}
+                    </div>
+                    <br>
+                {% endfor %}
+                <button type="submit">Revisar respuestas</button>
+            </form>
+        </section>
+
         <footer class="footer">
             <br><a href="{{ url_for('index') }}">← Volver al inicio</a>
         </footer>
